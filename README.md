@@ -5,6 +5,7 @@ This approach computes the result array by **splitting the product calculation i
 
 Instead of recalculating products repeatedly, we **precompute** these values once and reuse them.
 
+
 #### 1️⃣ Prefix Products ➡️
 - `prefixProducts[i]` stores the product of **all elements before index** `i`.
 - There are no elements before index `0`, so: `prefixProducts[0] = 1`
